@@ -5,7 +5,12 @@
         <div class="bg-black-60 pb5 pb6-m pb7-l">
           <nav class="dt w-100 mw8 center"/>
           <div class="tc-l mt4 mt5-m mt6-l ph3">
-            <h1 id="slogan" class="f1 f1-l fw2 white-90 lh-title tc">Stay-At-Home-Mom To The DOM</h1>
+            <h1 id="slogan" class="f1 f1-l fw2 white-90 lh-title tc">
+              <span id="text-title">
+                SAHM To The DOM
+                <span class="hot-mic">Stay-At-Home-Mom</span>
+              </span>
+            </h1>
             <h2 id="subtitle" class="fw3 white-80 mb4 tc">Hacking My Way Into Programming</h2>
           </div>
         </div>
@@ -117,5 +122,15 @@ header {
 }
 .center {
   text-align: center;
+}
+#text-title {
+  position: relative;
+}
+.hot-mic {
+  position: absolute;
+  font-size: 16px;
+  bottom: -13px;
+  left: 0;
+  transform: rotate(-7deg);
 }
 </style>
