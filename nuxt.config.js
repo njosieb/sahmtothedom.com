@@ -11,7 +11,14 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { property: 'og:title', content: 'Stay At Home Mom to the Dom' },
+      {
+        property: 'og:description',
+        content: pkg.description
+      },
+      { property: 'og:image', content: 'https://sahmtothedom.com/home.png' },
+      { property: 'og:url', content: 'https://sahmtothedom.com' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
