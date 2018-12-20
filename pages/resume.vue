@@ -17,7 +17,7 @@
     <div class="z-2 relative">
       <div class="container">
         <div class="column">
-          <h2 class="tr mb4 mt4 navy company">ROLO</h2>
+          <h2 class="tr navy company">ROLO</h2>
         </div>
         <div class="column mb4 mt4 navy job">
           <h2 class="f4 fw3 lh-copy">
@@ -34,7 +34,7 @@
       </div>
       <hr>
       <div class="container">
-        <div class="column mb4 mt4">
+        <div class="column">
           <h2 class="tr company">
             <a
               class="no-underline hover-purple navy"
@@ -47,9 +47,6 @@
           <h2 class="f4 fw3 lh-copy">
             <strong>Associate Developer</strong>
           </h2>
-          <h2 class="f4 fw3 lh-copy">
-            <strong>Sub-Contractor</strong>
-          </h2>
           <ul>
             <li>Netlify</li>
             <li>Gatsy</li>
@@ -61,7 +58,7 @@
 
       <hr>
       <div class="container">
-        <div class="column tr mb4 mt4">
+        <div class="column tr">
           <h2 class="company">
             <a
               class="navy no-underline tr hover-purple"
@@ -73,9 +70,6 @@
         <div class="column mr6 mb4 mt4 navy job">
           <h2 class="f4 fw3 lh-copy">
             <strong>Associate Developer</strong>
-          </h2>
-          <h2 class="f4 fw3 lh-copy">
-            <strong>Sub-Contractor</strong>
           </h2>
           <ul>
             <li>Netlify</li>
@@ -90,7 +84,7 @@
       <hr>
       <div class="container">
         <div class="column">
-          <h2 class="tr mb4 mt4 navy company">ST. CLARE OF ASSISI</h2>
+          <h2 class="tr navy company">ST. CLARE OF ASSISI</h2>
         </div>
         <div class="column mr6 mb4 mt4 navy job">
           <h2 class="f4 fw3 lh-copy">
@@ -180,6 +174,8 @@ hr {
 .container {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 25px;
+  line-height: 25px;
   @media (min-width: 600px) {
     display: flex;
     flex-wrap: nowrap;
@@ -207,8 +203,23 @@ strong {
 }
 .company {
   text-align: center;
+  margin-bottom: -0.75rem;
+  margin-top: 1.5rem;
   @media (min-width: 600px) {
     text-align: right;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+.f4 {
+  font-size: 1.13rem;
+}
+h2 {
+  line-height: 1.25;
+}
+h1 {
+  @media (min-width: 600px) {
+    margin-left: 55px;
   }
 }
 </style>
