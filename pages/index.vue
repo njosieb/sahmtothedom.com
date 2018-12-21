@@ -22,7 +22,7 @@
       <div id="circle3" class="circle"/>
       <div id="circle4" class="circle"/>
       <div id="circle5" class="circle"/>
-      <h1 class="center">Hi There!</h1>
+      <h1 id="greeting" class="center">Hi There!</h1>
       <p class="tj">
         I am a Stay-At-Home-Mom (SAHM) of twins hacking my way into the world of
         web-development one project at a time. Over the past year, I have been
@@ -46,6 +46,9 @@ header {
 }
 #headerBackground {
   background-image: url(~assets/IMG_1478.jpg);
+}
+#greeting {
+  color: teal;
 }
 #intro {
   width: 90%;
