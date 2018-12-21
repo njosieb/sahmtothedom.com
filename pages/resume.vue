@@ -9,10 +9,13 @@
     <div id="circle7" class="circle"/>
     <div id="circle8" class="circle"/>
     <div id="circle9" class="circle"/>
+    <div class="name lh-copy">
+      <h1 class="full-name">Nina Harris</h1>
+      <h3 class="navy normal">ninaharris121@gmail.com</h3>
+      <h3 class="navy normal">(314) 973-9570</h3>
+    </div>
     <div class="w-50 pt2 purple center tc z-2 relative">
-      <h1>
-        <em>EXPERIENCE</em>
-      </h1>
+      <h1 class="exp i">EXPERIENCE</h1>
     </div>
     <div class="z-2 relative">
       <div class="container">
@@ -112,7 +115,7 @@
 .circle {
   position: absolute;
   border-radius: 50%;
-  z-index: 1;
+  z-index: -1;
   background-color: white;
   border: #f1f1f1 solid 2px;
 }
@@ -217,10 +220,31 @@ strong {
 h2 {
   line-height: 1.25;
 }
-h1 {
+
+.exp {
+  padding-top: 24px;
   @media (min-width: 600px) {
-    margin-left: 55px;
+    margin-left: 72px;
+    margin-top: 35px;
   }
+}
+.name {
+  margin-left: -2px;
+  margin-top: 33px;
+  color: teal;
+  line-height: 1.25;
+  text-align: center;
+  @media (min-width: 600px) {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 1rem;
+    color: teal;
+    line-height: 1.25;
+  }
+}
+.full-name {
+  line-height: 2px;
 }
 </style>
 
