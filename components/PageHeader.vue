@@ -6,15 +6,31 @@
       title="Home"
     >
       <img src="~/assets/DSC_0397.NEF.jpg" class="dib w2 h2 br-100" alt="Site Name">
-      <span class="pl2">Nina J. Harris</span>
+      <span class="pl2">Nina Harris</span>
     </nuxt-link>
-    <div id="menuOptions" class="v-mid w-100 w-75-l tc tr-l">
+    <div id="not-small">
+      <a href="#"/>
       <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="/" title="About Me">
         <i class="fas fa-female"/> About Me
       </nuxt-link>
       <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="resume" title="Nina's Resume">
         <i class="fas fa-file"/> Resume
       </nuxt-link>
+    </div>
+    <div id="mobile-menu">
+      <div class="dropdown">
+        <button class="dropbtn bg-navy">
+          <i class="fas fa-bars"/>
+        </button>
+        <div class="dropdown-content">
+          <nuxt-link to="/" title="About Me">
+            <i class="fas fa-female"/> About Me
+          </nuxt-link>
+          <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="resume" title="Nina's Resume">
+            <i class="fas fa-file"/> Resume
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </nav>
 </template>
@@ -25,11 +41,72 @@ img {
 }
 nav {
   border-bottom: #4c2c92 solid 2px;
+  float: right;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-#menuOptions {
-  display: unset;
+#not-small {
+  display: none;
   @media (min-width: 600px) {
-    display: inline-block;
+    display: inline;
   }
+}
+#mobile-menu {
+  display: inline;
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+ul {
+  list-style: none;
+}
+/* Dropdown Button */
+.dropbtn {
+  color: teal;
+  padding: 16px;
+  font-size: 28px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 90px;
+  min-height: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: teal;
+  padding: 12px 16px;
+  text-decoration: bold;
+  display: block;
+  z-index: 2;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #4c2c92;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
 }
 </style>
