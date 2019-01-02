@@ -14,7 +14,13 @@
       <h3 class="navy normal">ninaharris121@gmail.com</h3>
       <h3 class="navy normal">(314) 973-9570</h3>
     </div>
-    <div class="w-50 pt2 purple center tc z-2 relative">
+    <div id="resume-button" class="center">
+      <a
+        class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-purple"
+        href="/nina_harris_web_developer_resume.pdf"
+      >Download Full Resume</a>
+    </div>
+    <div class="w-50 pt2 navy center tc z-2 relative">
       <h1 class="exp i">EXPERIENCE</h1>
     </div>
     <div class="z-2 relative">
@@ -222,7 +228,7 @@ h2 {
 }
 
 .exp {
-  padding-top: 24px;
+  padding-top: 0px;
   @media (min-width: 600px) {
     margin-left: 72px;
     margin-top: 35px;
@@ -245,6 +251,14 @@ h2 {
 }
 .full-name {
   line-height: 2px;
+}
+#resume-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @media (min-width: 600px) {
+    padding-left: 75px;
+  }
 }
 </style>
 

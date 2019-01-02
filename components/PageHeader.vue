@@ -9,7 +9,6 @@
       <span class="pl2">Nina Harris</span>
     </nuxt-link>
     <div id="not-small">
-      <a href="#"/>
       <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="/" title="About Me">
         <i class="fas fa-female"/> About Me
       </nuxt-link>
@@ -23,10 +22,10 @@
           <i class="fas fa-bars"/>
         </button>
         <div class="dropdown-content">
-          <nuxt-link to="/" title="About Me">
+          <nuxt-link class="link dim white f6 nowrap dib" to="/" title="About Me">
             <i class="fas fa-female"/> About Me
           </nuxt-link>
-          <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="resume" title="Nina's Resume">
+          <nuxt-link class="link dim white f6 nowrap dib" to="resume" title="Nina's Resume">
             <i class="fas fa-file"/> Resume
           </nuxt-link>
         </div>
@@ -78,7 +77,8 @@ ul {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: relative;
+  position: absolute;
+  right: 0;
   background-color: #f1f1f1;
   min-width: 90px;
   min-height: 30px;
