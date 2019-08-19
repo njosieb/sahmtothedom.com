@@ -206,7 +206,7 @@ strong {
   padding-left: 0rem;
   margin-right: 2rem;
   @media (min-width: 600px) {
-    padding-left: 4rem;
+    // padding-left: 4rem;
     margin-right: 2rem;
   }
 }
