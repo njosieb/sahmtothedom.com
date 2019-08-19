@@ -191,8 +191,8 @@ hr {
   }
   /* or inline-flex */
 }
-.row {
-}
+// .row {
+// }
 
 .column {
   flex: 50%;
