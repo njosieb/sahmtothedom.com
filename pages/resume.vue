@@ -1,14 +1,14 @@
 <template>
   <div class="relative z-1 bg-light-gray">
-    <div id="circle1" class="circle"/>
-    <div id="circle2" class="circle"/>
-    <div id="circle3" class="circle"/>
-    <div id="circle4" class="circle"/>
-    <div id="circle5" class="circle"/>
-    <div id="circle6" class="circle"/>
-    <div id="circle7" class="circle"/>
-    <div id="circle8" class="circle"/>
-    <div id="circle9" class="circle"/>
+    <div id="circle1" class="circle" />
+    <div id="circle2" class="circle" />
+    <div id="circle3" class="circle" />
+    <div id="circle4" class="circle" />
+    <div id="circle5" class="circle" />
+    <div id="circle6" class="circle" />
+    <div id="circle7" class="circle" />
+    <div id="circle8" class="circle" />
+    <div id="circle9" class="circle" />
     <div class="name lh-copy">
       <h1 class="full-name">Nina Harris</h1>
       <h3 class="navy normal">ninaharris121@gmail.com</h3>
@@ -41,7 +41,7 @@
           </ul>
         </div>
       </div>
-      <hr>
+      <!-- <hr /> -->
       <div class="container">
         <div class="column">
           <h2 class="tr company">
@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <hr>
+      <!-- <hr /> -->
       <div class="container">
         <div class="column tr">
           <h2 class="company">
@@ -90,7 +90,7 @@
           </ul>
         </div>
       </div>
-      <hr>
+      <!-- <hr /> -->
       <div class="container">
         <div class="column">
           <h2 class="tr navy company">ST. CLARE OF ASSISI</h2>
@@ -183,7 +183,7 @@ hr {
 .container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 25px;
+  // margin-left: 25px;
   line-height: 25px;
   @media (min-width: 600px) {
     display: flex;
@@ -230,7 +230,7 @@ h2 {
 .exp {
   padding-top: 0px;
   @media (min-width: 600px) {
-    margin-left: 72px;
+    // margin-left: 72px;
     margin-top: 35px;
   }
 }
@@ -243,7 +243,7 @@ h2 {
   @media (min-width: 600px) {
     text-align: center;
     margin-top: 50px;
-    margin-left: 80px;
+    // margin-left: 80px;
     margin-bottom: 1rem;
     color: teal;
     line-height: 1.25;
@@ -257,7 +257,7 @@ h2 {
   justify-content: center;
   padding-top: 10px;
   @media (min-width: 600px) {
-    padding-left: 75px;
+    // padding-left: 75px;
   }
 }
 </style>
