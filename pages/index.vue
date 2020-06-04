@@ -24,8 +24,8 @@
       <div id="circle5" class="circle"/>
       <h1 id="greeting" class="center">Hi There!</h1>
       <p class="tj">
-        I am a Stay-At-Home-Mom (SAHM) of twins hacking my way into the world of
-        web-development one project at a time. Over the past year, I have been
+        I am a Stay-At-Home-Mom (SAHM) of 2.5 year old twins and a 5 month old baby girl hacking my way into the world of
+        web-development one project at a time. Over the past few years, I have been
         growing & fine-tuning my knowledge of various programming languages. I
         have worked on a few projects during that time and would love to work
         with you on a web-development project!

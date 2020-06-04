@@ -21,17 +21,43 @@
       >Download Full Resume</a>
     </div>
     <div class="w-50 pt2 navy center tc z-2 relative">
-      <h1 class="exp i">EXPERIENCE</h1>
+      <h1 class="exp ">DEVELOPER EXPERIENCE</h1>
     </div>
     <div class="z-2 relative">
       <div class="container">
         <div class="column">
-          <h2 class="tr navy company">ROLO</h2>
+          <h2 class="tr navy company">
+            <a
+              class="no-underline hover-light-purple purple"
+              href="https://www.vatterottfoundation.org"
+              target="_blank"
+            >Vatterott Foundation</a>
+            <p class="normal f4 fw3 lh-copy">2019-2020t</p>
+          </h2>
         </div>
-        <div class="column mb4 mt4 navy job">
-          <h2 class="f4 fw3 lh-copy">
+        <div class="column mb4 mt4 navy job pt1">
+          <!-- <h2 class="f4 fw3 lh-copy">
             <strong>Current Side Project</strong>
           </h2>
+          <br> -->
+          <ul class="f4">
+            <li>
+              Vue site that integrate a CMS for client side editing for browser and mobile usage.  
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="column">
+          <h2 class="tr purple company"><a>ROLO</a>
+            <p class="navy normal f4 fw3 lh-copy">2018-2020</p>
+          </h2>
+          
+        </div>
+        <div class="column mb4 mt4 navy job pt1">
+          <!-- <h2 class="f4 fw3 lh-copy">
+            <strong>Current Side Project</strong>
+          </h2> -->
           <ul>
             <li>
               React web app that compiles contact information based on
@@ -46,16 +72,18 @@
         <div class="column">
           <h2 class="tr company">
             <a
-              class="no-underline hover-purple navy"
+              class="no-underline hover-light-purple purple"
               href="https://ecocentrixco.netlify.com/"
               target="_blank"
-            >ECOCENTRIX CO.</a>
+            >Ecocentrix CO.</a>
+            <p class="normal f4 fw3 lh-copy">March - November 2018</p>
           </h2>
         </div>
-        <div class="column mb4 mt4 navy job">
-          <h2 class="f4 fw3 lh-copy">
+        <div class="column mb4 mt4 navy job pt1">
+          <!-- <h2 class="f4 fw3 lh-copy">
             <strong>Associate Developer</strong>
           </h2>
+          <br> -->
           <ul>
             <li>Netlify</li>
             <li>Gatsy</li>
@@ -70,16 +98,18 @@
         <div class="column tr">
           <h2 class="company">
             <a
-              class="navy no-underline tr hover-purple"
+              class="purple no-underline tr hover-light-purple"
               href="http://pjm-contracting.com/"
               target="_blank"
-            >PJM CONTRACTING LLC.</a>
+            >PJM Contracting LLC.</a>
+            <p class="normal f4 fw3 lh-copy">January - April 2018</p>
           </h2>
         </div>
-        <div class="column mr6 mb4 mt4 navy job">
-          <h2 class="f4 fw3 lh-copy">
+        <div class="column mr6 mb4 mt4 navy job pt1">
+          <!-- <h2 class="f4 fw3 lh-copy">
             <strong>Associate Developer</strong>
           </h2>
+          <br> -->
           <ul>
             <li>Netlify</li>
             <li>Gatsy</li>
@@ -91,27 +121,34 @@
         </div>
       </div>
       <!-- <hr /> -->
-      <div class="container">
-        <div class="column">
-          <h2 class="tr navy company">ST. CLARE OF ASSISI</h2>
-        </div>
-        <div class="column mr6 mb4 mt4 navy job">
-          <h2 class="f4 fw3 lh-copy">
-            <strong>Director Of Religious Education</strong>
-          </h2>
-          <ul>
-            <li>August 2011 - July 2017, Ellisville, MO</li>
-            <li>
-              In charge of parish-wide religious formation programs for
-              students & adults.
-            </li>
-            <li>
-              Wore many hats & led multiple programs
-              involving faculty, staff, volunteers to educate over 400
-              students grades K-8.
-            </li>
-            <li>Directed organizations for a parish of 2,300 families.</li>
-          </ul>
+      <div >
+        <div class="w-50 pt2 navy center tc z-2 relative">
+          <h1 class="exp">ADDITIONAL EXPERIENCE</h1>
+        </div> 
+        <div class="container">
+          <div class="column">  
+            <h2 class="tr purple company"><a>St. Clare of Assisi Parish</a>
+            <p class="normal f4 fw3 lh-copy navy">Director of Religious Education</p>
+            <p class="normal f4 fw3 lh-copy navy">August - July 2017</p>
+            </h2>
+          </div>
+          <div class="column mr6 mb4 mt4 navy job">
+            <!-- <h2 class="f4 fw3 lh-copy">
+              <strong>Director Of Religious Education</strong>
+            </h2> -->
+            <ul>
+              <li>
+                In charge of parish-wide religious formation programs for
+                students & adults.
+              </li>
+              <li>
+                Wore many hats & led multiple programs
+                involving faculty, staff, volunteers to educate over 400
+                students grades K-8.
+              </li>
+              <li>Directed organizations for a parish of 2,300 families.</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -261,4 +298,3 @@ h2 {
   }
 }
 </style>
-
