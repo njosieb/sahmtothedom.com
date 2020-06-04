@@ -32,7 +32,7 @@
               href="https://www.vatterottfoundation.org"
               target="_blank"
             >Vatterott Foundation</a>
-            <p class="normal f4 fw3 lh-copy">2019-2020t</p>
+            <p class="normal f4 fw3 lh-copy">2019-2020</p>
           </h2>
         </div>
         <div class="column mb4 mt4 navy job pt1">
