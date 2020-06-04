@@ -86,7 +86,7 @@
           <br> -->
           <ul>
             <li>Netlify</li>
-            <li>Gatsy</li>
+            <li>Gatsby</li>
             <li>Revamped Image Messaging</li>
             <li>Improved coherency and theme of site</li>
           </ul>
@@ -112,7 +112,7 @@
           <br> -->
           <ul>
             <li>Netlify</li>
-            <li>Gatsy</li>
+            <li>Gatsby</li>
             <li>
               Added Project Portforlio with picture modal and slideshow
               effects.
