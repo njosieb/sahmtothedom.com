@@ -5,8 +5,8 @@
       to="/"
       title="Home"
     >
-      <img src="~/assets/DSC_0397.NEF.jpg" class="dib w2 h2 br-100" alt="Site Name">
-      <span class="pl2">Nina Harris</span>
+      <!-- <img src="~/assets/DSC_0397.NEF.jpg" class="dib w2 h2 br-100" alt="Site Name"> -->
+      <span class="pl2">Stay-At-Home-Mom to the DOM</span>
     </nuxt-link>
     <div id="not-small">
       <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="/" title="About Me">
