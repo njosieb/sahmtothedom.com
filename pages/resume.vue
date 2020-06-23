@@ -42,12 +42,18 @@
           <br> -->
           <ul class="f4">
             <li>
-              Vue site that integrate a CMS for client side editing for browser and mobile usage.  
+              Website for the Vatterott Foundation, Grant Application app built in Vue and Firebase for non-profits to request funding online.  
+            </li>
+            <li>
+              Responsible for converting app from AngularJS to Nuxt.js/Firestore.
+            </li>
+            <li>
+              Migrating content from hardcoded HTML to Netlify CMS.
             </li>
           </ul>
         </div>
       </div>
-      <div class="container">
+      <!-- <div class="container">
         <div class="column">
           <h2 class="tr purple company"><a>ROLO</a>
             <p class="navy normal f4 fw3 lh-copy">2018-2020</p>
@@ -58,7 +64,7 @@
           <!-- <h2 class="f4 fw3 lh-copy">
             <strong>Current Side Project</strong>
           </h2> -->
-          <ul>
+          <!-- <ul>
             <li>
               React web app that compiles contact information based on
               families to be easily integrated into mailing lists, spread
@@ -66,7 +72,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --> -->
       <!-- <hr /> -->
       <div class="container">
         <div class="column">
@@ -85,10 +91,9 @@
           </h2>
           <br> -->
           <ul>
-            <li>Netlify</li>
-            <li>Gatsby</li>
-            <li>Revamped Image Messaging</li>
-            <li>Improved coherency and theme of site</li>
+            <li>Company brochure & portfolio built with Gatsby & Netlify CMS.</li>
+            <li>Enabled site to be mobile-ready with responsive CSS.</li>
+            <li>Improved UI design of site fixing legacy flaws.</li>
           </ul>
         </div>
       </div>
@@ -121,9 +126,56 @@
         </div>
       </div>
       <!-- <hr /> -->
-      <div >
+      
+       <div >
         <div class="w-50 pt2 navy center tc z-2 relative">
-          <h1 class="exp">ADDITIONAL EXPERIENCE</h1>
+          <h1 class="exp">PROJECTS</h1>
+        </div> 
+        <div class="container">
+          <div class="column">  
+            <h2 class="tr purple company"><a class="purple no-underline tr hover-light-purple"
+              href="http://pickingupthebill.com/"
+              target="_blank">Picking Up The Bill</a>
+            <p class="normal f4 fw3 lh-copy navy">April - December 2019</p>
+            </h2>
+          </div>
+          <div class="column mr6 mb4 mt4 navy job">
+            <!-- <h2 class="f4 fw3 lh-copy">
+              <strong>Director Of Religious Education</strong>
+            </h2> -->
+            <ul>
+              <li>
+                Wedding website for friends built in NuxtJS with password protection.
+              </li>
+              <li>
+                Designed UI layout and components with responsive CSS.
+              </li>
+              <li>Added 'Suggest a Song' form with Firestore backend.</li>
+            </ul>
+          </div>
+        </div>
+         <div class="container">
+          <div class="column">  
+            <h2 class="tr purple company"><a class="purple no-underline tr hover-light-purple"
+              href="http://sahmtothedom.com/"
+              target="_blank">SAHMtotheDOM.com</a>
+            <p class="normal f4 fw3 lh-copy navy">November 2018 - March 2019</p>
+            </h2>
+          </div>
+          <div class="column mr6 mb4 mt4 navy job">
+            <!-- <h2 class="f4 fw3 lh-copy">
+              <strong>Director Of Religious Education</strong>
+            </h2> -->
+            <ul>
+              <li>
+                Resume site built with NuxtJS. "Stay-At-Home-Mom" to the DOM, that's me!
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div >
+        <div class="w-50 pt2 navy center tc z-2 relative">
+          <h1 class="exp">ADDITIONAL WORK EXPERIENCE</h1>
         </div> 
         <div class="container">
           <div class="column">  
@@ -150,6 +202,7 @@
             </ul>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -220,7 +273,8 @@ hr {
 .container {
   display: flex;
   flex-wrap: wrap;
-  // margin-left: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
   line-height: 25px;
   @media (min-width: 600px) {
     display: flex;
