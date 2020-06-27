@@ -6,7 +6,7 @@
       title="Home"
     >
       <!-- <img src="~/assets/DSC_0397.NEF.jpg" class="dib w2 h2 br-100" alt="Site Name"> -->
-      <span class="pl2">Stay-At-Home-Mom to the DOM</span>
+      <span class="pl2 serif i f4"><span class="b">S</span>tay-<span class="b">A</span>t-<span class="b">H</span>ome-<span class="b">M</span>om to the <span class="b">DOM</span></span>
     </nuxt-link>
     <div id="not-small">
       <nuxt-link class="link dim white f6 f5-l dib mr3 mr4-l" to="/" title="About Me">
