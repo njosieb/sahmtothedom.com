@@ -1,5 +1,5 @@
 <template>
-  <div class="relative z-1 bg-light-gray">
+  <div class="relative z-1 bg-light-gray browser-height">
     <div id="circle1" class="circle" />
     <div id="circle2" class="circle" />
     <div id="circle3" class="circle" />
@@ -9,21 +9,23 @@
     <div id="circle7" class="circle" />
     <div id="circle8" class="circle" />
     <div id="circle9" class="circle" />
-    <div class="name lh-copy">
+    <div class="name lh-copy pt3">
       <h1 class="full-name">Nina J. Harris</h1>
       <h3 class="navy normal">ninaharris121@gmail.com</h3>
       <h3 class="navy normal">(314) 973-9570</h3>
     </div>
     <div id="resume-button" class="center">
       <a
-        class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-purple"
+        class="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-purple"
         href="/nina_resume.pdf"
+        target="_blank"
       >Download Full Resume</a>
     </div>
-    <div>
+    <div class="main-sections-holder pt4">
       <div>
         <div class="w-50 pt2 center tc z-2 relative">
-          <h1 class="exp" @click="toggle()" ><a class="navy no-underline hover-blue pointer">DEVELOPER EXPERIENCE</a></h1>
+          <h1 class="grow exp pointer" @click="toggle()" ><a class="grow navy no-underline hover-blue fw3">DEVELOPER EXPERIENCE<br><i :class="!seen ? 'fas fa-chevron-down' : 'fas fa-chevron-up'" class="f4 mt1" /></a></h1>
+          
         </div>
         <div>
           <!-- <div class="w-50 pt2 center tc z-2 relative">
@@ -136,8 +138,8 @@
       <!-- <hr /> -->
       
     
-      <div class="w-50 pt2 navy center tc z-2 relative">
-        <h1 class="exp" @click="toggle2()"><a class="navy no-underline hover-blue pointer">PROJECTS</a></h1>
+      <div class="w-50 pt1 navy center tc z-2 relative">
+        <h1 class="grow exp pointer" @click="toggle2()"><a class="navy no-underline hover-blue fw3">PROJECTS<br><i :class="!seen2 ? 'fas fa-chevron-down' : 'fas fa-chevron-up'" class="f4 mt1" /></a></h1>
       </div> 
       <div v-show="seen2" class="container">
         <div class="column">  
@@ -183,8 +185,8 @@
       </div>
       <div>
         <div >
-          <div class="w-50 pt2 navy center tc z-2 relative">
-            <h1 class="exp" @click="toggle3()"><a class="navy no-underline hover-blue pointer">ADDITIONAL WORK EXPERIENCE</a></h1>
+          <div class="w-50 pt1 navy center tc z-2 relative">
+            <h1 class="grow exp pointer" @click="toggle3()"><a class="navy no-underline hover-blue fw3">ADDITIONAL EXPERIENCE<br><i :class="!seen3 ? 'fas fa-chevron-down' : 'fas fa-chevron-up'" class="f4 mt1" /></a></h1>
           </div> 
           <div v-show="seen3" class="container">
             <div class="column">  
@@ -214,6 +216,61 @@
         </div>
       </div>
     </div>
+    <div class="sub-section-holder flex justify-center justify-around pt5">
+        <div class="education">
+        <h1 class="grow pointer" @click="eduToggle()"><a class="purple fw3 hover-navy">
+          education<br><i :class="!education ? 'fas fa-dot-circle' : 'far fa-dot-circle'" class="mt1 f3"/></a>
+        </h1>
+        <div v-show="education">
+          <p>Loyola University Chicago</p>
+        </div>
+      </div>
+      <div class="skills mb1">
+        <h1 class="grow pointer purple fw3" @click="skillsToggle()"><a class="purple fw3 hover-navy">skills<br><i :class="!skills ? 'fas fa-dot-circle' : 'far fa-dot-circle'" class="mt1 f3"/></a></h1>
+        <div v-show="skills">
+          <p>Frontend Web Dev</p>
+          <p>CMS Development</p>
+          <p>Facilitation</p>
+          <p>UI Design</p>
+          <p>Team Leadership</p>
+        </div>
+      </div>
+      <div class="tech-prof">
+        <h1 class="grow pointer purple fw3" @click="techToggle()"><a class="purple fw3 hover-navy">tech proficiency<br><i :class="!tech ? 'fas fa-dot-circle' : 'far fa-dot-circle'" class="mt2 f3"/></a></h1>
+        <div v-show="tech">
+          <p>HTML / CSS / JS</p>
+          <p>Vue & React </p>
+          <p>Nuxt & Gatsby </p>
+          <p>Git & Github</p>
+          <p>SCSS & Less CSS</p>
+          <p>Firebase & Firestore</p>
+          <p>CLI / Terminal</p>
+          <p>Vuex & Redux</p>
+          <p>GraphyQL</p>
+        </div>
+      </div>
+       <div class="interests">
+        <h1 class="grow pointer purple fw3" @click="interestsToggle()"><a class="purple fw3 hover-navy">interests<br><i :class="!interests ? 'fas fa-dot-circle' : 'far fa-dot-circle'" class="mt2 f3"/></a></h1>
+        <div v-show="interests">
+          <p>Design</p>
+          <p>Web Dev</p>
+          <p>Painting</p>
+          <p>Yoga</p>
+          <p>Celebrity memoirs</p>
+          <p>Comedians</p>
+          <p>Cooking</p>
+        </div>
+      </div>
+      <div class="languages">
+        <h1 class="grow pointer purple fw3" @click="langToggle()"><a class="purple fw3 hover-navy">languages<br><i :class="!lang ? 'fas fa-dot-circle' : 'far fa-dot-circle'" class="mt2 f3"/></a></h1>
+        <div v-show="lang">
+          <p>English</p>
+          <p>Spanish</p>
+          <p>Italian</p>
+        </div>
+      </div>
+     
+    </div>
   </div>
   </div>
 </template>
@@ -225,6 +282,11 @@ export default {
     seen: false,
     seen2: false,
     seen3: false,
+    skills: false,
+    tech: false,
+    lang: false,
+      interests: false,
+      education: false,
     }
   },
   methods: {
@@ -236,6 +298,21 @@ export default {
     },
      toggle3: function() {
       this.seen3 = !this.seen3
+    },
+    skillsToggle: function() {
+      this.skills = !this.skills
+    },
+    eduToggle: function() {
+      this.education = !this.education
+    },
+    techToggle: function() {
+      this.tech = !this.tech
+    },
+    langToggle: function() {
+      this.lang = !this.lang
+    },
+    interestsToggle: function() {
+      this.interests = !this.interests
     }
   }
 }
@@ -384,5 +461,21 @@ h2 {
   @media (min-width: 600px) {
     // padding-left: 75px;
   }
+}
+.main-sections-holder {
+ margin-top: 3%;
+}
+.sub-section-holder {
+  margin: 5%;
+  text-align: center;
+}
+// .skills {
+  
+// }
+div h1 p {
+  color: navy;
+}
+.browser-height {
+  min-height: 100vh;
 }
 </style>
