@@ -15,6 +15,9 @@
       <nuxt-link class="link white f5 f5-l dib mr3 mr4-l hover-light-blue" to="resume" title="Nina's Resume">
         <i class="fas fa-file"/> Resume
       </nuxt-link>
+      <nuxt-link class="link white f5 f5-l dib mr3 mr4-l hover-light-blue" to="njhcreates" title="NJH Creates">
+        <i class="fas fa-magic"/> NJH Creates
+      </nuxt-link>
     </div>
     <div id="mobile-menu">
       <div class="dropdown">
@@ -27,6 +30,9 @@
           </nuxt-link>
           <nuxt-link class="link white f5 nowrap dib hover-light-blue" to="resume" title="Nina's Resume">
             <i class="fas fa-file"/> Resume
+          </nuxt-link>
+          <nuxt-link class="link white f5 f5-l dib mr3 mr4-l hover-light-blue" to="njhcreates" title="NJH Creates">
+            <i class="fas fa-magic"/> NJH Creates
           </nuxt-link>
         </div>
       </div>

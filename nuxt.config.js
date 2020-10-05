@@ -1,3 +1,11 @@
+// import markdownIt from 'markdown-it'
+
+// const md = markdownIt({
+//   html: true,
+//   linkify: true,
+//   typographer: true
+// })
+
 const pkg = require('./package')
 
 module.exports = {

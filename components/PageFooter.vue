@@ -4,7 +4,7 @@
       <a href="https://www.linkedin.com/in/nina-harris-97575b34/" target="_blank">
         <i class="fab fa-linkedin purple hover-navy"/>
       </a>
-      <a href="https://www.instagram.com/mrsninaharris/" target="_blank">
+      <a href="https://www.instagram.com/njhcreates/" target="_blank">
         <i class="fab fa-instagram purple hover-navy"/>
       </a>
       <a href="https://github.com/njosieb" target="_blank">

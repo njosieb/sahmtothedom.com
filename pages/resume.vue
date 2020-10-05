@@ -17,7 +17,7 @@
     <div id="resume-button" class="center">
       <a
         class="f5 grow no-underline br-pill ph3 pv2 mb2 dib white bg-purple"
-        href="/nina_resume.pdf"
+        href="/nina_harris_resume.pdf"
         target="_blank"
       >Download Full Resume</a>
     </div>
