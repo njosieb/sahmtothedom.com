@@ -4,7 +4,7 @@
       <div id="headerBackground" class="cover bg-left bg-center-l">
         <div class="bg-black-60 pb5 pb6-m pb7-l">
           <nav class="dt w-100 mw8 center h-75"/>
-           <div class="tc-l mt4 mt5-m mt6-l ph3">
+          <div class="tc-l mt4 mt5-m mt6-l ph3">
             <h1 id="slogan" class="f1 f1-l fw2 white-90 lh-title tc">
               <span id="text-title">
                 SAHM To The DOM
@@ -13,7 +13,7 @@
             </h1>
             <h2 id="subtitle" class="fw3 white-80 mb4 tc">Hacking My Way Into Programming</h2>
           </div>
-         </div> 
+        </div>
       </div>
     </header>
     <div id="intro" class="center pr4 pl4 pv4 navy relative z-2">
@@ -24,7 +24,7 @@
       <div id="circle5" class="circle"/>
       <h1 id="greeting" class="center">Hi There!</h1>
       <p class="tj">
-        I am a <span class="fw6">S</span>tay-<span class="fw6">A</span>t-<span class="fw6">H</span>ome-<span class="fw6">M</span>om of 2.5 year old twins and a 7 month old baby girl hacking my way into the world of
+        I am a <span class="fw6">S</span>tay-<span class="fw6">A</span>t-<span class="fw6">H</span>ome-<span class="fw6">M</span>om of 2.5 year old twins and a 9 month old baby girl hacking my way into the world of
         web-development one project at a time. Over the past few years, I have been
         growing & fine-tuning my knowledge of various programming languages. I
         have worked on a few projects during that time and would love to work
@@ -46,7 +46,6 @@ header {
 }
 #headerBackground {
   background-image: url(~assets/IMG_1478.jpg);
-  height: 38rem;
 }
 #greeting {
   color: teal;

@@ -6,17 +6,18 @@
       title="Home"
     >
       <!-- <img src="~/assets/DSC_0397.NEF.jpg" class="dib w2 h2 br-100" alt="Site Name"> -->
-      <span class="pl2 serif i f4"><span class="b">S</span>tay-<span class="b">A</span>t-<span class="b">H</span>ome-<span class="b">M</span>om to the <span class="b">DOM</span></span>
+      <i class="fas fa-star flex items-center"/>
+      <span class="pl2 i f3">  Nina J Harris</span>
     </nuxt-link>
     <div id="not-small">
       <nuxt-link class="link white f5 f5-l dib mr3 mr4-l hover-light-blue" to="/" title="About Me">
-        <i class="fas fa-female"/> About Me
+        <i class="fas fa-female"/>  About Me
       </nuxt-link>
       <nuxt-link class="link white f5 f5-l dib mr3 mr4-l hover-light-blue" to="resume" title="Nina's Resume">
-        <i class="fas fa-file"/> Resume
+        <i class="fas fa-file"/>  Resume
       </nuxt-link>
       <nuxt-link class="link white f5 f5-l dib mr3 mr4-l hover-light-blue" to="njhcreates" title="NJH Creates">
-        <i class="fas fa-magic"/> NJH Creates
+        <i class="fas fa-magic"/>  NJH Creates
       </nuxt-link>
     </div>
     <div id="mobile-menu">
@@ -53,13 +54,13 @@ nav {
 }
 #not-small {
   display: none;
-  @media (min-width: 600px) {
+  @media (min-width: 960px) {
     display: inline;
   }
 }
 #mobile-menu {
   display: inline;
-  @media (min-width: 600px) {
+  @media (min-width: 960px) {
     display: none;
   }
 }
